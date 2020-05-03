@@ -1,0 +1,27 @@
+{
+  "name": "new_book_from_openbd",
+  "version": "1.0.0",
+  "description": "openBDプロジェクトを利用して、新着書籍の情報を取得します。",
+  "main": "main.ts",
+  "scripts": {
+    "main": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:10080/kanedaq/new_book_from_openbd"
+  },
+  "author": "kanedaq",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^7.17.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.1.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
