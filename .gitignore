@@ -2,3 +2,4 @@
 /node_modules/
 /src/postgres.js
 /src/toISBN10.js
+/.idea/
